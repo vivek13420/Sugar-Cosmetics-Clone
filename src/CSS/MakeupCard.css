@@ -1,0 +1,51 @@
+.mk-img{
+    border: 0px solid red;
+    height: 400px;
+    width: 280px;
+    border-radius: 15px;
+    line-height: 0px;
+    background-color: #ffffff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.mkdiv{
+    border: 0px solid green;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 15px;
+    margin-top: 15px;   
+}
+.card_img{
+    border-radius: 13px;
+}
+.price-m{
+    font-size: 20px;
+}
+.makup_button{
+    display: flex;
+    margin-top: 1px;
+    justify-content: space-between;
+}
+.m-button{
+    background-color: black;
+}
+.white-list{
+    border: 1px solid black;
+    height: 43px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 14px;
+}
+.white-list>i{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 9px;
+}
+#aa{
+    background-color: black;
+}
+@media screen and (max-width: 480px) {
+    .makdiv{
+        /* display: grid; */
+        grid-template-columns: 30% 30% ;
+    }
+}
