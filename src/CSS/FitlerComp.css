@@ -1,0 +1,165 @@
+#accordion{
+    margin: 12px auto;
+    width: 240px;
+    background: #fff;
+    border: 0px solid red;
+    /* height: 360px; */
+    line-height: 38px;
+    border-radius: 10px;
+    color: #212121;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+}
+#accordion-sort{
+    margin: 12px auto;
+    width: 240px;
+    background: #fff;
+    border: 0px solid red;
+    /* height: 360px; */
+    line-height: 38px;
+    border-radius: 10px;
+    color: #212121;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+}
+#accordion li{
+    list-style: none;
+    width: 90%;
+    /* margin-left: -5px; */
+    /* margin-bottom: 10px; */
+    background: #fff;
+    /* padding: 10px; */
+    /* border-radius: 4px; */
+}
+#accordion-sort li{
+    list-style: none;
+    width: 90%;
+    /* margin-left: -5px; */
+    /* margin-bottom: 10px; */
+    background: #fff;
+    /* padding: 10px; */
+    /* border-radius: 4px; */
+}
+#accordion li label {
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 650;
+    cursor: pointer;
+    
+    /* color: #c20000; */
+
+}
+#accordion-sort li label {
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 650;
+    cursor: pointer;
+    
+    /* color: #c20000; */
+
+}
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #333;
+
+}
+#accordion-sort li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #333;
+
+}
+#accordion label + input[type="radio"]{
+    display: none;
+}
+#accordion-sort label + input[type="checkbox"]{
+    display: none;
+}
+#accordion .content {
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accordion-sort .content-sort {
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s;
+
+}
+#accordion label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+    
+}
+#accordion-sort label + input[type="checkbox"]:checked + .content-sort{
+    max-height: 400px;
+    
+}
+
+.filter-name{
+    display: flex;
+    align-items: center;
+    /* justify-content:space-evenly; */
+    border: 0px solid red;
+    margin-left: -20px;
+    height: 60px;
+}
+.filter-name>label{
+    font-size: 17px;
+    font-weight: 650;
+    color: #212121;
+}
+.reset{
+    margin-left: 10rem;
+    color: #ed0e80;
+}
+.content{
+        
+        text-align: justify;
+        margin-left: -2rem;
+        font-size: 13px;
+        font-family: sans-serif;
+        cursor: pointer;
+        
+    }
+    .content-sort{
+        
+        text-align: justify;
+        margin-left: -2rem;
+        font-size: 13px;
+        font-family: sans-serif;
+        cursor: pointer;
+        
+    }
+.label{
+    margin-left: -1.4rem;
+    
+}
+.label-sort{
+    margin-left: -1.4rem;
+    margin-bottom: 10px;
+}
+.hr{
+    margin-left: -1.5rem;
+    width: 245px;
+}
+.content>div>input{
+    margin-right: 15px;
+    
+}
+input[type="checkbox"]{
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+

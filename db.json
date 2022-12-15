@@ -1,0 +1,135 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "img":"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F17-Raf-Mini-1_722c9db9-41f9-4a9f-8084-f121e232d86f.jpg%3Fv%3D1658851265&w=256&q=75",
+      "no_of_chapters": 6,
+      "author": "Masai",
+      "cover_photo": "",
+      "book_name": "Full-Stack Web Development",
+      "category": "Blurring",
+      "release_year": 2019,
+      "chapters": [
+        { "name": "HTML", "pages": 20 },
+        { "name": "CSS", "pages": 25 }
+      ]
+    },
+    {
+      "id": 2,
+      "no_of_chapters": 6,
+      "author": "Masai",
+      "cover_photo": "",
+      "book_name": "Full-Stack Web Development",
+      "category": "Blurring",
+      "release_year": 2020,
+      "chapters": [
+        { "name": "HTML", "pages": 20 },
+        { "name": "CSS", "pages": 25 }
+      ]
+    },
+    {
+      "id": 3,
+      "no_of_chapters": 6,
+      "author": "Masai",
+      "cover_photo": "",
+      "book_name": "Full-Stack Web Development",
+      "category": "Novel",
+      "release_year": 2021,
+      "chapters": [
+        { "name": "HTML", "pages": 20 },
+        { "name": "CSS", "pages": 25 }
+      ]
+    },
+    {
+      "id": 4,
+      "no_of_chapters": 6,
+      "author": "Masai",
+      "cover_photo": "",
+      "book_name": "Full-Stack Web Development",
+      "category": "Science_Fiction",
+      "release_year": 2022,
+      "chapters": [
+        { "name": "HTML", "pages": 20 },
+        { "name": "CSS", "pages": 25 }
+      ]
+    },
+    {
+      "id": 5,
+      "no_of_chapters": 6,
+      "author": "Masai",
+      "cover_photo": "",
+      "book_name": "Full-Stack Web Development",
+      "category": "Thriller",
+      "release_year": 2018,
+      "chapters": [
+        { "name": "HTML", "pages": 20 },
+        { "name": "CSS", "pages": 25 }
+      ]
+    },
+    {
+      "id": 6,
+      "no_of_chapters": 6,
+      "author": "Masai",
+      "cover_photo": "",
+      "book_name": "Full-Stack Web Development",
+      "category": "Thriller",
+      "release_year": 2017,
+      "chapters": [
+        { "name": "HTML", "pages": 20 },
+        { "name": "CSS", "pages": 25 }
+      ]
+    },
+    {
+      "id": 7,
+      "no_of_chapters": 6,
+      "author": "Masai",
+      "cover_photo": "",
+      "book_name": "Full-Stack Web Development",
+      "category": "Novel",
+      "release_year": 2016,
+      "chapters": [
+        { "name": "HTML", "pages": 20 },
+        { "name": "CSS", "pages": 25 }
+      ]
+    },
+    {
+      "id": 8,
+      "no_of_chapters": 6,
+      "author": "Masai",
+      "cover_photo": "",
+      "book_name": "Full-Stack Web Development",
+      "category": "Science_Fiction",
+      "release_year": 2015,
+      "chapters": [
+        { "name": "HTML", "pages": 20 },
+        { "name": "CSS", "pages": 25 }
+      ]
+    },
+    {
+      "id": 9,
+      "no_of_chapters": 6,
+      "author": "Masai",
+      "cover_photo": "",
+      "book_name": "Full-Stack Web Development",
+      "category": "Motivational",
+      "release_year": 2014,
+      "chapters": [
+        { "name": "HTML", "pages": 20 },
+        { "name": "CSS", "pages": 25 }
+      ]
+    },
+    {
+      "id": 10,
+      "no_of_chapters": 6,
+      "author": "Masai",
+      "cover_photo": "",
+      "book_name": "Full-Stack Web Development",
+      "category": "Motivational",
+      "release_year": 2013,
+      "chapters": [
+        { "name": "HTML", "pages": 20 },
+        { "name": "CSS", "pages": 25 }
+      ]
+    }
+  ]
+}
