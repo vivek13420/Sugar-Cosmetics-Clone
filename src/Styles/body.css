@@ -1,0 +1,20 @@
+
+.hot_deals, .sugar_hai,.top_picks{
+    width: 95%;
+    margin: auto;
+    /* border: 1px solid red; */
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.hot_cards{
+    display: flex;
+    justify-content: space-around;
+    width: 99%;
+    margin: auto;
+    /* border: 1px solid blue; */
+}
+.hot_cards img, .sugar_hai img{
+    border-radius: 10px;
+}
