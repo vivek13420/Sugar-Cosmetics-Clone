@@ -7,7 +7,20 @@
     margin-top: 25px;
     margin-bottom: 30px;
 }
-
+.hot_deals_child{
+    /* border: 1px solid red; */
+    width: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.pink_hr{
+    /* border: 1px solid blue; */
+    width: 20%;
+    color: red;
+    font-size: 40px;
+    margin-top: -15px;
+}
 .hot_cards{
     display: flex;
     justify-content: space-around;

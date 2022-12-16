@@ -1,21 +1,28 @@
 
 .outer_box{
     width:99%;
-    height:600px;
+    /* height:600px; */
     background-color:black;
     padding:10px;
     margin:auto;
+    margin-top: 50px;
     color: white;
 }
 .sugar_logo_box{
-    width: 110px;
-    height: 110px;
+    width: 170px;
+    height: 170px;
     background-color: black;
     margin: auto;
     margin-top: -60px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding: 10px;
     border-radius: 50%;
+}
+.sugar_logo_box img{
+    width: 200px;
+    position: relative;
+    margin-top: -25px;
+    margin-left: -13px;
 }
 .inner_box_main{
     width: 95%;
@@ -36,6 +43,13 @@
 img{
     cursor: pointer;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+.links_box a:hover{
+    text-decoration: underline;
+}
 .links_box{
     display: flex;
     width: 60%;
@@ -46,8 +60,8 @@ img{
     /* border: 1px solid white; */
     font-size: 18px;
 }
-.links{
-    color: white;
+.links:hover{
+    cursor: pointer;
 }
 .contact_box{
     width: 90%;
@@ -60,6 +74,14 @@ img{
 }
 .greyText{
     color: rgb(193, 191, 191);
+}
+.greyTextUnder{
+    color: rgb(193, 191, 191);
+}
+.greyTextUnder:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
 }
 .apps_box{
     width: 50%;
