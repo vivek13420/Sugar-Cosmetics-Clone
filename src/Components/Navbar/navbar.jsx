@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import LowerNavbar from "./LowerNavbar";
+import UpperNavbar from "./UpperNavbar";
 
-const navbar = () => {
+const Navbar = () => {
   return (
-    <div>navbar</div>
-  )
-}
+    <div>
+      <UpperNavbar/>
+      Navbar
+      <LowerNavbar/>
+      
+    </div>
+  );
+};
 
-export default navbar
+export default Navbar;
