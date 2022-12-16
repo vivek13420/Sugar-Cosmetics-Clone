@@ -78,6 +78,24 @@ const Body = ()=>{
                 <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Ff190c764-84cf-4eea-a381-8b701be65852.gif&w=1920&q=75" alt="shukar hai" width={'100%'}/>
             </div>
         </div>
+
+        <div className="subscibe_box">
+            <hr style={{'border':'0.5px solid #ddd'}}/>
+            <div className="sbc">
+                <div className="hot_deals_child" style={{'width':'500px'}}>
+                    <div className="pink_hr2">___</div>
+                    <div><h3 style={{'fontSize':'24px'}}>LET’S STAY IN TOUCH</h3></div>
+                    <div className="pink_hr2">___</div>
+                </div>
+                <p className="subs_desc">Get the latest beauty tips straight to your inbox. Can’t wait to connect!</p>
+
+                <div className="subs_inputBox">
+                    <input className="" type="text" />
+                    <button>SUBSCRIBE</button>
+                </div>
+            </div>
+
+        </div>
     </div>
 }
 
