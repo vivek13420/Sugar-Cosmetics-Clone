@@ -56,3 +56,11 @@
   .upper>p~p{
     font-weight: 600;
   }
+  
+  #toastt{
+    background-color: black;
+    color: white;
+    height: 44px;
+    width: 200px;
+    border-radius: 10px;
+  }

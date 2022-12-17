@@ -8,7 +8,7 @@ const MainRoutes = () => {
     <Routes>
       <Route path="/" element={<Makeup />} />;
       <Route path="/login" element={<Login />} />
-      <Route path="/shoes/:id" element={<SinglePage />} />
+      <Route path="/sugarcan/:id" element={<SinglePage />} />
       <Route path="*" element={<div>Page Not Found</div>} />
     </Routes>
   )

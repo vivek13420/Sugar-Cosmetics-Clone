@@ -22,9 +22,10 @@ const getMakeupError = () =>{
 const getMakeup = (params) =>(dispatch) =>{
     dispatch(getMakeupRequest());
     return axios 
-        .get('http://localhost:8080/books',params)
+        .get('http://localhost:8080/sugarcan',params)
         .then((r)=>{
             dispatch(getMakeupSuccess(r.data));
+            // console.log(r.data)
         })
         .catch((e)=>{
             dispatch(getMakeupError());

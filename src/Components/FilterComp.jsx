@@ -22,8 +22,11 @@ const FilterComp = () => {
   
   const [searchParams, setSearchParams] =useSearchParams()
    const initalCategory = searchParams.getAll("category");
-  const [category, setCategory] = useState(initalCategory || []);
+  const initialSort = searchParams.getAll('sort')
   
+  
+   const [category, setCategory] = useState(initalCategory || []);
+  const [sort, setSortBy]= useState(initialSort || '')
   // 7. if page refresh or rerender the page data is not goese
   
   // console.log(initalCategory)
@@ -41,12 +44,15 @@ const FilterComp = () => {
   }
   // console.log(category)
 //6. update url if click checkbox
-
+const handleSort =(e) =>{
+setSortBy(e.target.value)
+}
 useEffect(()=>{
   let params = {};
   params.category= category;
+  sort && (params.sort = sort);
   setSearchParams(params)
-},[category, setSearchParams])
+},[category, setSearchParams, sort])
 
   return (
 
@@ -77,17 +83,17 @@ useEffect(()=>{
             
             <input type="checkbox" name="according-sort" id="first-sort"  ></input>
             
-            <div className ="content-sort">
+            <div className ="content-sort" onChange={handleSort}>
                 <div>
-                  <input  type="radio" />
+                  <input  type="radio" value="relv" name="sortBy" />
                   Relevance
                 </div>
                 <div>
-                  <input  type="radio" />
+                  <input  type="radio" value="asc" name="sortBy" />
                   Price: High To Low
                 </div>
                 <div>
-                  <input  type="radio" />
+                  <input  type="radio" value="desc" name="sortBy"/>
                   Price: Low To High
                 </div>
                 </div>
@@ -108,42 +114,42 @@ useEffect(()=>{
             <input type="radio" name="according" id="first"  ></input>
             <div className ="content">
                 <div>
-                  <input  type="checkbox" />
+                  <input  type="checkbox" value="Kajal" onChange={makeupFilerCheckbox} checked={category.includes("Kajal")} />
                   Kajal
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                  <input  type="checkbox"  value="Crayon Lipstick" onChange={makeupFilerCheckbox} checked={category.includes("Crayon Lipstick")} />
                   Crayon Lipstick
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Vivid Lipstick" onChange={makeupFilerCheckbox} checked={category.includes("Vivid Lipstick")} />
                   Vivid Lipstick
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Kohl" onChange={makeupFilerCheckbox} checked={category.includes("Kohl")} />
                   Kohl
-                </div><div>
-                  <input  type="checkbox" />
+                </div>
+                <div>
+                <input  type="checkbox"  value="Mascara" onChange={makeupFilerCheckbox} checked={category.includes("Mascara")} />
                   Mascara
                 </div>
-                
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Liquid Lipstick" onChange={makeupFilerCheckbox} checked={category.includes("Liquid Lipstick")} />
                   Liquid Lipstick
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Eyeliner" onChange={makeupFilerCheckbox} checked={category.includes("Eyeliner")} />
                   Eyeliner
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Brow Definer" onChange={makeupFilerCheckbox} checked={category.includes("Brow Definer")} />
                   Brow Definer
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Blushes & Bronzers" onChange={makeupFilerCheckbox} checked={category.includes("Blushes & Bronzers")} />
                   Blushes & Bronzers
                 </div><div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Blush" onChange={makeupFilerCheckbox} checked={category.includes("Blush")} />
                   Blush
                 </div>
 
@@ -156,19 +162,19 @@ useEffect(()=>{
             <input type="radio" name="according" id="second"  ></input>
             <div className ="content">
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Purple" onChange={makeupFilerCheckbox} checked={category.includes("Purple")} />
                   Purple
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Smudge Free" onChange={makeupFilerCheckbox} checked={category.includes("Smudge Free")} />
                   Smudge Free
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Velvet" onChange={makeupFilerCheckbox} checked={category.includes("Velvet")} />
                    Velvet
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Waterproof" onChange={makeupFilerCheckbox} checked={category.includes("Waterproof")} />
                   Waterproof
                 </div>
                 <div>
@@ -200,15 +206,15 @@ useEffect(()=>{
             <input type="radio" name="according" id="third"  ></input>
             <div className ="content">
                 <div>
-                <input  type="checkbox" />
+                <input  type="checkbox"  value="Matte" onChange={makeupFilerCheckbox} checked={category.includes("Matte")} />
                   Matte
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Bullet" onChange={makeupFilerCheckbox} checked={category.includes("Bullet")} />
                   Bullet
                 </div>
                 <div>
-                <input  type="checkbox" />
+                <input  type="checkbox"  value="Metallic" onChange={makeupFilerCheckbox} checked={category.includes("Metallic")} />
                 Metallic
                 </div>
                 <div>
@@ -231,19 +237,19 @@ useEffect(()=>{
             <input type="radio" name="according" id="fourth"  ></input>
             <div className ="content">
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Crayon" onChange={makeupFilerCheckbox} checked={category.includes("Crayon")} />
                   Crayon
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Bullet" onChange={makeupFilerCheckbox} checked={category.includes("Bullet")} />
                   Bullet
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Liquid" onChange={makeupFilerCheckbox} checked={category.includes("Liquid")} />
                    Liquid
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Pressed Powder" onChange={makeupFilerCheckbox} checked={category.includes("Pressed Powder")} />
                    Pressed Powder
                 </div>
                 <div>
@@ -251,7 +257,7 @@ useEffect(()=>{
                   Gel
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Cream" onChange={makeupFilerCheckbox} checked={category.includes("Cream")} />
                   Cream
                 </div>
             </div>
@@ -266,11 +272,11 @@ useEffect(()=>{
                   Blurring
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Under eye" onChange={makeupFilerCheckbox} checked={category.includes("Under eye")} />
                   Under eye
                 </div>
                 <div>
-                  <input  type="checkbox" />
+                <input  type="checkbox"  value="Brightening" onChange={makeupFilerCheckbox} checked={category.includes("Brightening")} />
                   Brightening
                 </div>
             </div>

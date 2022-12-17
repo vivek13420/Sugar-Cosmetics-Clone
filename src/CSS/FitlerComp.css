@@ -45,9 +45,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 17px;
-    font-weight: 650;
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
+    color: #333;
     
     /* color: #c20000; */
 
@@ -57,7 +58,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 650;
     cursor: pointer;
     
@@ -72,7 +73,7 @@
 }
 #accordion-sort li label span{
     transform: rotate(90deg);
-    font-size: 22px;
+    font-size: 20px;
     color: #333;
 
 }
@@ -115,7 +116,7 @@
     height: 60px;
 }
 .filter-name>label{
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 650;
     color: #212121;
 }
