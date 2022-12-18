@@ -1,0 +1,155 @@
+
+.outer_box{
+    width:99%;
+    /* height:600px; */
+    background-color:black;
+    padding:10px;
+    margin:auto;
+    margin-top: 150px;
+    color: white;
+}
+.sugar_logo_box{
+    width: 170px;
+    height: 170px;
+    background-color: black;
+    margin: auto;
+    margin-top: -60px;
+    /* margin-bottom: 20px; */
+    padding: 10px;
+    border-radius: 50%;
+}
+.sugar_logo_box img{
+    width: 200px;
+    position: relative;
+    margin-top: -25px;
+    margin-left: -13px;
+}
+.inner_box_main{
+    width: 95%;
+    margin: auto;
+    /* border: 1px solid white; */
+    padding: 5px;
+}
+.inner_box_1{
+    width: 300px;
+    /* border: 1px solid white;  */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.links_box a:hover{
+    text-decoration: underline;
+}
+.links_box{
+    display: flex;
+    width: 60%;
+    height: 60px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid white; */
+    font-size: 18px;
+}
+.links:hover{
+    cursor: pointer;
+}
+.contact_box{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cbc{
+    text-align: left;
+}
+.greyText{
+    color: rgb(193, 191, 191);
+}
+.greyTextUnder{
+    color: rgb(193, 191, 191);
+}
+.greyTextUnder:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.apps_box{
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.app_button{
+    display: flex;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 12px;
+    padding: 5px;
+    width: 150px;
+    height: 60px;
+}
+.apps_child_box{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+
+@media all and (min-width:300px) and (max-width:1000px){
+    .inner_box_1{
+        width: 100%;
+        /* border: 1px solid white;  */
+        margin-top: 10px;
+    }
+    .links_box{
+        display: grid;
+        grid-template-rows: repeat(5,1fr);
+        gap: 10px;
+        width: 90%;
+        height: 200px;
+        margin: auto;
+        justify-content: space-around;
+        align-items: center;
+        /* border: 1px solid white; */
+        font-size: 18px;
+    }
+    .contact_box{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        justify-content: center;
+    }
+    .cbc{
+        text-align: center;
+    }
+    .apps_box{
+        width: 100%;
+        margin: auto;
+        /* border: 1px solid red; */
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .apps_child_box{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+    }
+}

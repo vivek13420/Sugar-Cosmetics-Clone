@@ -1,5 +1,7 @@
 .single_img_left{
     display: flex;
+    /* border: 1px solid red; */
+    
    
 
     
@@ -17,8 +19,9 @@
     width: 82%; 
     margin: auto;
     background-color: #fff;
-    margin-top: 50px;
+    margin-top: 40px;
     border-radius: 10px;
+    margin-bottom: 100px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 .single_img_left>div:nth-child(1){

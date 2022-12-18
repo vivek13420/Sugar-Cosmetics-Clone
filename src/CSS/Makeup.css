@@ -18,7 +18,7 @@
 
  .bg-text {
     position: absolute;
-    top: 24.5%;
+    top: 49%;
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
@@ -65,21 +65,26 @@
   }
   @media all and (min-width:500px) and (max-width:1001px){
     .bg-text{
-      width: 90%;
+      width: 100%;
+      top: 31.4%;
+      left: 50%;
     }
     .bg-image{
-      width: 80%;
+      /* width: 100%; */
       display: none;
+      
     }
     .upper{
       display: none;
+      /* width: 100%; */
     }
     .imgblour{
       width: 100%;
       margin-left: -5.5rem;
     }
     .body{
-      width: 91%;
+      width: 100%;
+      display: none;
     }
 
 }
@@ -90,6 +95,11 @@
     width: 160px;
    
   }
+  .body{
+    width: 100%;
+    display: none;
+  }
+  
 }
 @media all and (min-width:400px) and (max-width:550px){
   #toastt{
@@ -99,6 +109,10 @@
     font-size: 12px;
    
   }
+  .body{
+    width: 100%;
+    display: none;
+  }
 }
 @media all and (min-width:270px) and (max-width:420px){
   #toastt{
@@ -107,5 +121,9 @@
     height: 44px;
     width: 180px;
     border-radius: 10px;
+  }
+  .body{
+    width: 100%;
+    display: none;
   }
 }

@@ -40,7 +40,7 @@ const postCart  = ()=>{
   })
 }
 const whiteList=()=>{
-  toast.success("Add white list");
+  toast.success("Added To Cart!");
 }
 
 
