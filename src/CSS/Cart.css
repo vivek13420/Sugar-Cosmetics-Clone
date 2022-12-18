@@ -1,0 +1,70 @@
+.cart_page{
+    display: flex;
+    /* overflow-y: auto; */
+    
+}
+.cart_page>div{
+    width: 47%;
+    border: 0px solid red;
+    /* height: 200px; */
+    margin: auto;
+    background-color: #fff;
+}
+.left_cart{
+    border: 0px solid red;
+    display: flex;
+    height: 80px;
+    font-size: 12px;
+    background-color: #fff;
+    
+    
+    
+
+}
+.cart_page>div:nth-child(2){
+    height: 500px;
+}
+.cart_page>div:nth-child(1){
+    height: 500px;
+    
+}
+.left_cart>div{
+    border: 0px solid red;
+    /* width: 100px; */
+    /* height: 100px; */
+    /* margin: auto; */
+    
+
+}
+.left_cart>div:nth-child(1)>img{
+    object-fit: cover;
+}
+.left_cart>div:nth-child(1){
+    margin-left: 0px;
+    margin-right: 5rem;
+
+}
+.left_cart>div:nth-child(2){
+    /* margin-right: 10px; */
+    border: 0px solid red;
+    width: 200px;
+    /* margin-right: 1rem; */
+}
+.left_cart>div:nth-child(3){
+    margin-left: 10rem;
+    height: 34px;
+    width: 84px;
+    /* text-align: center; */
+    border: 0px solid red;
+    border-radius: 10px;
+    margin-top: 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 0px 0px 1px;
+    /* margin-right: 1rem; */
+}
+.left_cart>div:nth-child(3)>p{
+    margin-top: 7px;
+    font-size: 15px;
+    
+
+    
+}

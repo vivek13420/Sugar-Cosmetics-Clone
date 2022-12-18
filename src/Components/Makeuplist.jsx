@@ -5,12 +5,18 @@ import "../CSS/MakeupCard.css";
 import { NavLink } from 'react-router-dom';
 import { useLocation, useSearchParams } from 'react-router-dom';
 import {getMakeup} from '../Redux/AppReducer/action'
+import { toast } from 'react-hot-toast';
 const Makeuplist = () => {
+
+    const addTocartHandler = (options) => { 
+ 
+        toast.success("Added to car")
+      }
+
     const makeup = useSelector((store)=> store.books);
     const dispatch = useDispatch();
     const location = useLocation()
-    // console.log(location)
-    console.log(getMakeup)
+
     const [searchParams] = useSearchParams()
 
     useEffect(()=>{
@@ -28,8 +34,11 @@ const Makeuplist = () => {
         {makeup.length> 0 && makeup.map(singleMakeup =>{
             return (
                 
-                <div key={singleMakeup.id}>
-                <MakeupCard makeupData = {singleMakeup}/>
+                <div key={singleMakeup.id}
+                >
+                <MakeupCard makeupData = {singleMakeup}
+                    handler = {addTocartHandler}
+                />
                 </div>  
                  
         )})}

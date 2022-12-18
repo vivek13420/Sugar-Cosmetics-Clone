@@ -5,21 +5,46 @@ import axios from 'axios'
 import CustomizedSnackbars from '../Components/Toast'
 import "../CSS/SinglePage.css"
 import Description from './Description'
+import { Button } from '@material-ui/core'
+import { toast } from 'react-hot-toast';
 const SinglePage = () => {
 
   const {id}= useParams()
   const [single, setSingle]= useState({})
 
     useEffect(()=>{
-      axios.get(`http://localhost:8080/sugarcan/${id}`)
+      axios.get(`https://nordstrom1.onrender.com/api/sugarcan/${id}`)
       .then((r)=>{
-          setSingle(r.data)
+          setSingle({...r.data})
         })
         .catch((e)=>{
         })
     },[setSingle])
-    // const [mainImage, setMainImage] = useState(single);
-console.log(single)
+    
+
+const postCart  = ()=>{
+  fetch("http://localhost:3001/cart", {
+    method: "POST",
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json',
+    },
+
+    body:JSON.stringify(single)
+  }).then((resp)=>{
+    
+    resp.json().then((result)=>{
+      console.warn("result",result)
+      toast.success("Added To Cart");
+    })
+  })
+}
+const whiteList=()=>{
+  toast.success("Add white list");
+}
+
+
+// console.log(single.price)
   return (
     <div className='single_img_left_head'>
     <div className='single_img_left'>
@@ -63,8 +88,10 @@ console.log(single)
             </Description>
            
            </div>
-           <div className='white-list1'><i className="fa-regular fa-heart"></i></div>
-           <div id='button-cart'><CustomizedSnackbars/></div>
+           <div className='white-list1' onClick={whiteList}>< i className="fa-regular fa-heart"></i>
+           <button id='button_cart' onClick={postCart} >ADD TO CART</button>
+           </div>
+           
           </div>
           
     </div>

@@ -22,7 +22,7 @@ const getMakeupError = () =>{
 const getMakeup = (params) =>(dispatch) =>{
     dispatch(getMakeupRequest());
     return axios 
-        .get('http://localhost:8080/sugarcan',params)
+        .get('https://nordstrom1.onrender.com/api/sugarcan',params)
         .then((r)=>{
             dispatch(getMakeupSuccess(r.data));
             // console.log(r.data)

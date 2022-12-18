@@ -164,3 +164,6 @@ input[type="checkbox"]{
     height: 16px;
 }
 
+@media all and (min-width:581px) and (max-width:1001px){
+    
+}

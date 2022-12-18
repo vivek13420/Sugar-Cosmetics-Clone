@@ -4,7 +4,14 @@ import "../CSS/MakeupCard.css"
 import ToastExample from './Toast'
 import { NavLink } from 'react-router-dom';
 import CustomizedSnackbars from './Toast'
-const MakeupCard = ({makeupData}) => {
+import { toast } from 'react-hot-toast';
+
+const MakeupCard = ({makeupData,handler}) => {
+
+  
+  const whiteLists=()=>{
+    toast.success("Add white list");
+  }
 
     const toast = useToast()
   return (
@@ -26,9 +33,10 @@ const MakeupCard = ({makeupData}) => {
 
 
       
-      <div className='white-list'><i className="fa-regular fa-heart"></i></div>
+      <div className='white-list'  onClick={whiteLists}><i className="fa-regular fa-heart"></i></div>
         <CustomizedSnackbars/>
-       
+        <br/>
+       {/* <Button onClick={()=>handler({makeupData})}>addd</Button> */}
       </div>
     </div>
     </div>
