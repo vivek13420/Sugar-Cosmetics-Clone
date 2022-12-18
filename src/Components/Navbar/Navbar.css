@@ -1,0 +1,179 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+} */
+#upperNavbar {
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 30px;
+  border: 1px solid gray;
+  align-items: center;
+  justify-content: center;
+}
+#logoImage {
+  width: 10%;
+}
+#searchButton {
+  font-size: large;
+  background-color: white;
+}
+#searchBar {
+  color: white;
+  background-color: #212121;
+  border-radius: 5px;
+}
+.redCart{
+  cursor: pointer;
+}
+#nav-sticky{
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+#mainNavbar {
+  width: 100%;
+  display:flex;
+  font-size: large;
+  background-color: black;
+  color: white;
+  
+  justify-content: space-around;
+  height: 80px;
+  align-items: center;
+}
+#lg{
+    width: 45%;
+    display: flex;
+    height: 40px;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+}
+#lg input{
+    border-radius: 10px 0 0 10px;
+    width: 85%;
+    border: 1px solid white;
+    /* height: 100%; */
+}
+#lg button{
+    border-radius: 0 10px 10px 0;
+    width: 15%;
+    /* height: 100%; */
+    border: 1px solid gray;
+}
+#lr{
+    width: 20%;
+   display: flex;
+   gap: 5px;
+   justify-content: center;
+   align-items: center;
+}
+#hbd{
+    display: flex;
+    gap: 20px;
+}
+/* Dropdown Button */
+#lower-nav{
+    width: 100%;
+    background-color: #212121;
+    /* border: 1px solid red; */
+}
+#l1{
+    width: 60%;
+    /* border: 1px solid red; */
+}
+.dropbtn {
+    background-color: #212121;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content div {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    /* display: flex;
+    flex-direction: row; */
+  }
+  .dropdown-content a {
+    color: black;
+  }
+  .ddm{
+    display: flex;
+    /* width: 200%; */
+  }
+  .CAT{
+    width: 750px;
+    row-gap:20px ;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto);
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {text-decoration: #212121;}
+
+
+  /* // */
+  @media screen and (max-width: 992px) {
+    #lr{
+      padding-right: 50px;
+    }
+    #hbd{
+      padding-right: 20px;
+    }
+    #logoImage{
+      width: 30%;
+    }
+    #mainNavbar{
+    display: flex;
+    justify-content: space-around;
+  
+    }
+   #searchButton, #searchBar{
+    display: none;
+   }
+   #lower-nav{
+    height: 50px;
+   }
+   #l1{
+    /* border: 1px solid red; */
+   width: 100%;
+   display: flex;
+   
+   }
+   #gt,#bl,#stor,#ofr{
+     display: none;
+   }
+  }

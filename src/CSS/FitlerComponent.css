@@ -1,0 +1,147 @@
+#accor{
+    margin: 12px auto;
+    width: 240px;
+    background: #fff;
+    border: 0px solid red;
+    line-height: 38px;
+    border-radius: 10px;
+    color: #212121;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+}
+#accor-sort{
+    margin: 12px auto;
+    width: 240px;
+    background: #fff;
+    border: 0px solid red;
+    line-height: 38px;
+    border-radius: 10px;
+    color: #212121;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+}
+#accor li{
+    list-style: none;
+    width: 90%;
+    background: #fff;
+}
+#accor-sort li{
+    list-style: none;
+    width: 90%;
+    background: #fff;
+}
+#accor li label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 650;
+    cursor: pointer;
+
+}
+#accor-sort li label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 650;
+    cursor: pointer;
+
+}
+#accor li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #333;
+
+}
+#accor-sort li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #333;
+
+}
+#accor label + input[type="radio"]{
+    display: none;
+}
+#accor-sort label + input[type="checkbox"]{
+    display: none;
+}
+#accor .contents {
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accor-sort .sorting_content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s;
+
+}
+#accor label + input[type="radio"]:checked + .contents{
+    max-height: 400px;
+    
+}
+#accor-sort label + input[type="checkbox"]:checked + .sorting_content{
+    max-height: 400px;
+    
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    margin-left: -20px;
+    height: 60px;
+}
+.name>label{
+    font-size: 17px;
+    font-weight: 650;
+    color: #212121;
+}
+.reset{
+    margin-left: 10rem;
+    color: #ed0e80;
+}
+.contents{
+        
+        text-align: justify;
+        margin-left: -2rem;
+        font-size: 13px;
+        font-family: sans-serif;
+        cursor: pointer;
+        
+    }
+    .sorting_content{
+        
+        text-align: justify;
+        margin-left: -2rem;
+        font-size: 13px;
+        font-family: sans-serif;
+        cursor: pointer;
+        
+    }
+.labeled{
+    margin-left: -1.4rem;
+    
+}
+.sorted{
+    margin-left: -1.4rem;
+    margin-bottom: 10px;
+}
+.hr_tag{
+    margin-left: -1.5rem;
+    width: 245px;
+}
+.contents>div>input{
+    margin-right: 15px;
+    
+}
+input[type="checkbox"]{
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+

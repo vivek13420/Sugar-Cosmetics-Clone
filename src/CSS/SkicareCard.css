@@ -1,0 +1,101 @@
+.skincare-img{
+    border: 0px solid red;
+    height: 400px;
+    width: 280px;
+    border-radius: 15px;
+    line-height: 0px;
+    background-color: #ffffff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.div{
+    border: 0px solid green;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 15px;
+    margin-top: 15px;   
+}
+.imge{
+    border-radius: 13px;
+}
+.pric{
+    font-size: 20px;
+}
+.skincare_button{
+    display: flex;
+    margin-top: 1px;
+    justify-content: space-between;
+}
+.m-button{
+    background-color: black;
+}
+.skincare-list{
+    border: 1px solid black;
+    height: 43px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 14px;
+}
+
+.btn{
+    border:none;
+    height: 43px;
+    width: 180px;
+    border-radius: 10px;
+    margin-left: 14px;
+    color:#ffffff;
+    background-color: black;
+    font-weight:bold;
+    margin-right:10px;
+}
+.btn>p{
+    margin-top:20px;
+}
+.skincare-list>i{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 9px;
+}
+#aa{
+    background-color: black;
+}
+@media all and (min-width:420px) and (max-width:550px){
+    .skincare-img{
+       
+        height: 400px;
+        width: 230px;
+        display: grid;
+        align-items: center;
+        margin: auto;
+       
+    }
+    .div{
+       
+        display: grid;
+        grid-template-columns: 50% 50% ;
+      width: 90%;
+        display: grid;
+        align-items: center;
+        /* margin: auto;    */
+    }
+}
+@media all and (min-width:300px) and (max-width:420px){
+    .skincare-img{
+       
+        height: 400px;
+        width: 280px;
+        display: grid;
+        align-items: center;
+        margin: auto;
+       
+    }
+    .div{
+       
+        display: grid;
+        grid-template-columns: 100% ;
+      
+        width: 100%;
+        display: grid;
+        align-items: center;
+        margin: auto;   
+    }
+}

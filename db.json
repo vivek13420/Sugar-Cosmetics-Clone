@@ -1,135 +1,19 @@
 {
-  "books": [
+  "cart": [
     {
       "id": 1,
-      "img":"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F17-Raf-Mini-1_722c9db9-41f9-4a9f-8084-f121e232d86f.jpg%3Fv%3D1658851265&w=256&q=75",
-      "no_of_chapters": 6,
-      "author": "Masai",
-      "cover_photo": "",
-      "book_name": "Full-Stack Web Development",
+      "img": "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F1_2d186f9b-9024-4e23-a0d2-a55b7671e89c.jpg%3Fv%3D1657123108&w=256&q=75",
+      "shades": "2 shades",
+      "products_name": "Contour De Force Eyes And Face ",
       "category": "Blurring",
-      "release_year": 2019,
-      "chapters": [
-        { "name": "HTML", "pages": 20 },
-        { "name": "CSS", "pages": 25 }
-      ]
-    },
-    {
-      "id": 2,
-      "no_of_chapters": 6,
-      "author": "Masai",
-      "cover_photo": "",
-      "book_name": "Full-Stack Web Development",
-      "category": "Blurring",
-      "release_year": 2020,
-      "chapters": [
-        { "name": "HTML", "pages": 20 },
-        { "name": "CSS", "pages": 25 }
-      ]
-    },
-    {
-      "id": 3,
-      "no_of_chapters": 6,
-      "author": "Masai",
-      "cover_photo": "",
-      "book_name": "Full-Stack Web Development",
-      "category": "Novel",
-      "release_year": 2021,
-      "chapters": [
-        { "name": "HTML", "pages": 20 },
-        { "name": "CSS", "pages": 25 }
-      ]
-    },
-    {
-      "id": 4,
-      "no_of_chapters": 6,
-      "author": "Masai",
-      "cover_photo": "",
-      "book_name": "Full-Stack Web Development",
-      "category": "Science_Fiction",
-      "release_year": 2022,
-      "chapters": [
-        { "name": "HTML", "pages": 20 },
-        { "name": "CSS", "pages": 25 }
-      ]
-    },
-    {
-      "id": 5,
-      "no_of_chapters": 6,
-      "author": "Masai",
-      "cover_photo": "",
-      "book_name": "Full-Stack Web Development",
-      "category": "Thriller",
-      "release_year": 2018,
-      "chapters": [
-        { "name": "HTML", "pages": 20 },
-        { "name": "CSS", "pages": 25 }
-      ]
-    },
-    {
-      "id": 6,
-      "no_of_chapters": 6,
-      "author": "Masai",
-      "cover_photo": "",
-      "book_name": "Full-Stack Web Development",
-      "category": "Thriller",
-      "release_year": 2017,
-      "chapters": [
-        { "name": "HTML", "pages": 20 },
-        { "name": "CSS", "pages": 25 }
-      ]
-    },
-    {
-      "id": 7,
-      "no_of_chapters": 6,
-      "author": "Masai",
-      "cover_photo": "",
-      "book_name": "Full-Stack Web Development",
-      "category": "Novel",
-      "release_year": 2016,
-      "chapters": [
-        { "name": "HTML", "pages": 20 },
-        { "name": "CSS", "pages": 25 }
-      ]
-    },
-    {
-      "id": 8,
-      "no_of_chapters": 6,
-      "author": "Masai",
-      "cover_photo": "",
-      "book_name": "Full-Stack Web Development",
-      "category": "Science_Fiction",
-      "release_year": 2015,
-      "chapters": [
-        { "name": "HTML", "pages": 20 },
-        { "name": "CSS", "pages": 25 }
-      ]
-    },
-    {
-      "id": 9,
-      "no_of_chapters": 6,
-      "author": "Masai",
-      "cover_photo": "",
-      "book_name": "Full-Stack Web Development",
-      "category": "Motivational",
-      "release_year": 2014,
-      "chapters": [
-        { "name": "HTML", "pages": 20 },
-        { "name": "CSS", "pages": 25 }
-      ]
-    },
-    {
-      "id": 10,
-      "no_of_chapters": 6,
-      "author": "Masai",
-      "cover_photo": "",
-      "book_name": "Full-Stack Web Development",
-      "category": "Motivational",
-      "release_year": 2013,
-      "chapters": [
-        { "name": "HTML", "pages": 20 },
-        { "name": "CSS", "pages": 25 }
-      ]
+      "price": 1099,
+      "rating": 5,
+      "rating_count": "(2)",
+      "colors": "#212121",
+      "img1": "https://cdn.shopify.com/s/files/1/0906/2558/products/3_24ebc645-031e-4544-ad8d-44c5373e7b1f.jpg?v=1657209588",
+      "img2": "https://cdn.shopify.com/s/files/1/0906/2558/products/7_8a9442d1-8017-41fa-8c95-df0ee030f46d.jpg?v=1657209590",
+      "img3": "https://cdn.shopify.com/s/files/1/0906/2558/products/4_1470cdda-a059-417f-b8f8-e17451910001.jpg?v=1657209593",
+      "img4": "https://cdn.shopify.com/s/files/1/0906/2558/products/2_43d83a15-0d61-47e2-aefb-a5a1a4b8de85.jpg?v=1657209600"
     }
   ]
 }

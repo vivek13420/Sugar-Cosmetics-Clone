@@ -4,6 +4,8 @@
     width: 280px;
     border-radius: 15px;
     line-height: 0px;
+    padding-top: 5px;
+    text-decoration: none;
     background-color: #ffffff;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
@@ -16,6 +18,7 @@
 }
 .card_img{
     border-radius: 13px;
+    object-fit: cover;
 }
 .price-m{
     font-size: 20px;
@@ -34,18 +37,103 @@
     width: 50px;
     border-radius: 10px;
     margin-left: 14px;
+    cursor: pointer;
 }
 .white-list>i{
     font-size: 25px;
     text-align: center;
     margin-top: 9px;
+    cursor: pointer;
 }
 #aa{
     background-color: black;
 }
-@media screen and (max-width: 480px) {
-    .makdiv{
-        /* display: grid; */
-        grid-template-columns: 30% 30% ;
+
+.nnnn{
+    text-decoration: none;
+    color: black;
+}
+.p_name{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+}
+@media all and (min-width:700px) and (max-width:900px){
+    
+    .mk-img{
+        border: 0px solid red;
+        height: 400px;
+        width: 230px;
+       
+    }
+    .mkdiv{
+        border: 0px solid green;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        gap: 15px;
+        margin-top: 15px;   
+    }
+}
+@media all and (min-width:550px) and (max-width:700px){
+    .mk-img{
+      
+        height: 400px;
+        width: 280px;
+        display: grid;
+        align-items: center;
+        margin: auto;
+       
+    }
+    .mkdiv{
+       
+        display: grid;
+        grid-template-columns: 50% 50% ;
+       gap: 20px;
+        width: 90%;
+        display: grid;
+        align-items: center;
+        /* margin: auto;    */
+    }
+}
+@media all and (min-width:420px) and (max-width:550px){
+    .mk-img{
+       
+        height: 400px;
+        width: 230px;
+        display: grid;
+        align-items: center;
+        margin: auto;
+       
+    }
+    .mkdiv{
+       
+        display: grid;
+        grid-template-columns: 50% 50% ;
+      
+        width: 90%;
+        display: grid;
+        align-items: center;
+        /* margin: auto;    */
+    }
+}
+@media all and (min-width:300px) and (max-width:420px){
+    .mk-img{
+       
+        height: 400px;
+        width: 280px;
+        display: grid;
+        align-items: center;
+        margin: auto;
+       
+    }
+    .mkdiv{
+       
+        display: grid;
+        grid-template-columns: 100% ;
+      
+        width: 100%;
+        display: grid;
+        align-items: center;
+        margin: auto;   
     }
 }
