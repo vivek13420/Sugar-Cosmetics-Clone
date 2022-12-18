@@ -4,6 +4,8 @@ import UpperNavbar from "./UpperNavbar";
 import { FaUserCircle, FaRegHeart, FaShoppingBag } from "react-icons/fa";
 import { TbDiscount2 } from "react-icons/tb";
 import { FiSearch } from "react-icons/fi";
+import { Link } from "react-router-dom";
+
 
 const Navbar = () => {
   return (
@@ -12,13 +14,13 @@ const Navbar = () => {
         <UpperNavbar />
       </div>
       <div id="mainNavbar">
-        {/* <div style={{border:"1px solid red"}}> */}
+        
         <img
           id="logoImage"
           src="https://cdn.sanity.io/images/gxmub2ol/production/98a9ebae1456c75c727d5fab8c934dae908a144c-1493x380.png"
           alt="logo"
         />
-        {/* </div> */}
+        
         <div id="lg">
           <input placeholder="     Try `Liquid Lipstick`" id="searchBar" />
           <button id="searchButton">

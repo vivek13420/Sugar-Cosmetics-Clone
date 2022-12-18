@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 30%;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  #payment {
+    text-align: left;
+  }
+  input[type="text"],input[type="password"],input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type="submit"]{
+      background-color:grey;
+      border: none;
+      padding:8px 15px;
+      display: block;
+      margin: 0 auto;
+      color: white;
+  }

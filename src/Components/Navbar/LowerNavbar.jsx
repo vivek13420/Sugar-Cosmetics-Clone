@@ -93,7 +93,7 @@ const LowerNavbar = () => {
         </div>
       </div>
       <div class="dropdown">
-        <button class="dropbtn">GIFTING</button>
+        <button id="gt" class="dropbtn">GIFTING</button>
         <div class="dropdown-content">
         <div className="CAT">
             <a href="#">SUGAR MERCH STATION</a>
@@ -105,15 +105,15 @@ const LowerNavbar = () => {
           </div>
         </div>
       </div>
-      <div class="dropdown">
+      <div id="bl" class="dropdown">
         <button class="dropbtn">BLOG</button>
       
       </div>
-      <div class="dropdown">
+      <div id="ofr" class="dropdown">
         <button class="dropbtn">OFFERS</button>
         
       </div>
-      <div class="dropdown">
+      <div id="stor" class="dropdown">
         <button class="dropbtn">STORES</button>
      
       </div>
