@@ -1,22 +1,20 @@
 import React from "react";
-import { render } from "react-dom";
+// import { render } from "react-dom";
 import Carousel from "./Carousel";
 import '../Styles/body.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Carousal2 from "./Carousal2";
 
 const Body = ()=>{
 
-    // const handleLink = ()=>{
-    //     window.location.href="https://www.google.com/";
-    // }
-
-    return <div style={{'width':'100%','padding':'5px', 'margin':'auto'}}>
-        {/* <a href="https://in.sugarcosmetics.com/collections/sugarnew">
-            <div style={{'width':'100%'}}>  */}
-                <Carousel />
-            {/* </div>
-        </a> */}
-        <a href="https://in.sugarcosmetics.com/collections/sugarnew"></a>
+    return <div id="main_box">
+        <div className="sliderBig">
+            <Carousel />
+        </div>
+        <div className="sliderSmall">
+            <Carousal2 />
+        </div>
+        {/* <a href="https://in.sugarcosmetics.com/collections/sugarnew"></a> */}
         <div className="hot_deals">
             <div className="hot_deals_child">
                 <div className="pink_hr">___</div>
@@ -73,7 +71,6 @@ const Body = ()=>{
                 <div><h3>NEWLY LAUNCHED</h3></div>
                 <div className="pink_hr">___</div>
             </div>
-            <h3></h3>
             <div>
                 <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Ff190c764-84cf-4eea-a381-8b701be65852.gif&w=1920&q=75" alt="shukar hai" width={'100%'}/>
             </div>
@@ -92,6 +89,7 @@ const Body = ()=>{
                 <div className="subs_inputBox">
                     <input className="" type="text" />
                     <button>SUBSCRIBE</button>
+                    
                 </div>
             </div>
 

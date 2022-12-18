@@ -55,37 +55,39 @@ const Footer = ()=>{
                     <hr />
                     <div className='apps_box'>
                         <div className="apps_child">
-                            <p>GET THE NEW SUGAR APP TODAY!</p>
+                            <p>GET THE NEW MASAI COSMETICS APP TODAY!</p>
                             <p className='greyText'>Tap into a better shopping experience.</p>
                         </div>
-                        <div className="apps_child">
-                            <a href="https://sugarcosmetics.app.link/WebFApp">
-                                <div className='app_button'>
-                                    <img src="/icons/playstore.png" alt="gplay" width={'40px'}/>
-                                    <div>
-                                        <p>GET IN ON</p>
-                                        <p style={{'fontSize':'18px','marginTop':'-10px'}}>Google Play</p>
+                        <div className='apps_child_box'>
+                            <div className="apps_child">
+                                <a href="https://sugarcosmetics.app.link/WebFApp">
+                                    <div className='app_button'>
+                                        <img src="/icons/playstore.png" alt="gplay" width={'40px'}/>
+                                        <div>
+                                            <p>GET IN ON</p>
+                                            <p style={{'fontSize':'18px','marginTop':'-10px'}}>Google Play</p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                            
-                        </div>
-                        <div className="apps_child">
-                            <a href="https://sugarcosmetics.app.link/WebFApp">
-                                <div className='app_button'>
-                                    <img src="/icons/apple.png" alt="appstore"  width={'40px'}/>
-                                    <div>
-                                        <p>Download on the</p>
-                                        <p style={{'fontSize':'18px','marginTop':'-10px'}}>App Store</p>
+                                </a>
+                            </div>
+
+                            <div className="apps_child">
+                                <a href="https://sugarcosmetics.app.link/WebFApp">
+                                    <div className='app_button'>
+                                        <img src="/icons/apple.png" alt="appstore"  width={'40px'}/>
+                                        <div>
+                                            <p>Download on the</p>
+                                            <p style={{'fontSize':'18px','marginTop':'-10px'}}>App Store</p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <hr />
                 <div className='greyText'>
-                    <p>Copyright © 2022 SUGAR Cosmetics. All rights reserved.</p>
+                    <p>Copyright © 2022 MASAI Cosmetics. All rights reserved.</p>
                 </div>
             </div>
         </div>
