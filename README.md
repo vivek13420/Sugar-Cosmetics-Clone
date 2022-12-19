@@ -15,7 +15,6 @@ This is a collaborative Project from Masai School in the Construct Week develope
 💻Project Unique Name :- Masai Cosmetics ✈️
 ---
 About SUGAR COSMETICS:- SUGAR Cosmetics, a cult-favourite amongst Gen Z and millennials, is one of the fastest-growing premium beauty brands in India. With its clutter-breaking persona, signature low-poly packaging and chart-topping products, SUGAR is the makeup of choice for bold, independent women who refuse to be stereotyped into roles.
-Read more at: https://yourstory.com/companies/sugar-cosmetics.
 
 <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fa7bfdf05-ad0e-4c24-ab48-7ff64e9115b8.jpg&w=1920&q=75"/>
 
