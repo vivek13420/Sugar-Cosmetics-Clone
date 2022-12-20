@@ -31,8 +31,11 @@ Chakra UI (UI Styling Library) Styled-Components.
 For authentication: Google firebase authentication.
 
 ---
-
-
+Steps to run the project locally:-
+1. Clone the code from github
+2. Run 'npm install' /'npm install -f'
+3. Run 'npm start'
+4. Enjoy! 
 
 ---
 Deployed Link : https://masai-cosmetics.netlify.app/
