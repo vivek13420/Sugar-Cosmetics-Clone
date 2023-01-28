@@ -23,8 +23,6 @@ const FilterComp = () => {
   const [searchParams, setSearchParams] =useSearchParams()
    const initalCategory = searchParams.getAll("category");
   const initialSort = searchParams.getAll('sort')
-  
-  
    const [category, setCategory] = useState(initalCategory || []);
   const [sort, setSortBy]= useState(initialSort || '')
   // 7. if page refresh or rerender the page data is not goese
@@ -41,6 +39,7 @@ const FilterComp = () => {
         newCategories.push(e.target.value)
       }
       setCategory(newCategories)
+
   }
   // console.log(category)
 //6. update url if click checkbox
@@ -79,22 +78,22 @@ useEffect(()=>{
       <div>
       <ul id='accordion-sort'>
        <li>
-       <label htmlFor="first-sort" className='label-sort'>Sort By: Relevance <span><i className="fa-solid fa-angle-right"></i></span></label>
+       <label htmlFor="first-sort" className='label-sort'>Sort By: <span><i className="fa-solid fa-angle-right"></i></span></label>
             
             <input type="checkbox" name="according-sort" id="first-sort"  ></input>
             
             <div className ="content-sort" onChange={handleSort}>
-                <div>
+                {/* <div>
                   <input  type="radio" value="relv" name="sortBy" />
                   Relevance
-                </div>
+                </div> */}
                 <div>
                   <input  type="radio" value="asc" name="sortBy" />
-                  Price: High To Low
+                  Price: Low To High
                 </div>
                 <div>
                   <input  type="radio" value="desc" name="sortBy"/>
-                  Price: Low To High
+                  Price: High To Low
                 </div>
                 </div>
        </li>

@@ -21,14 +21,17 @@ const Makeuplist = () => {
 
     useEffect(()=>{
         if(location || makeup.length ===0){
+            const sortBy=searchParams.get("sort");
             const getBookParams ={
                 params: {
-                    category: searchParams.getAll('category')   
+                    category: searchParams.getAll('category'),
+                    _sort:sortBy && "price",
+                    _order:sortBy,   
                 }
             }
             dispatch(getMakeup(getBookParams))
         }
-    }, [makeup.length, dispatch, location.search])   
+    }, [makeup.length, dispatch, location.search])    
 
   return <div className='mkdiv'>
         {makeup.length> 0 && makeup.map(singleMakeup =>{

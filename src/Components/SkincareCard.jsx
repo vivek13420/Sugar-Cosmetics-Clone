@@ -1,6 +1,13 @@
 import React from "react";
+import CustomizedSnackbars from './Toast'
 import "../CSS/SkicareCard.css";
+import { useToast } from '@chakra-ui/react'
+
 const Card = ({ skincareData }) => {
+  const whiteLists=()=>{
+    toast.success("Add white list");
+  }
+  const toast = useToast()
   return (
     <div>
       <div className="skincare-img">
@@ -15,10 +22,11 @@ const Card = ({ skincareData }) => {
         <br />
         <br />
         <div className="skincare_button">
-          <div className="skincare-list">
+          <div className="skincare-list" onClick={whiteLists}>
             <i className="fa-regular fa-heart"></i>
           </div>
-         <i class="btn"><p>Add To Cart</p></i>
+          <CustomizedSnackbars/>
+         {/* <i class="btn"><p>Add To Cart</p></i> */}
         </div>
       </div>
     </div>

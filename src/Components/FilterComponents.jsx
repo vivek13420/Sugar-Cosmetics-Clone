@@ -24,6 +24,7 @@ const FilterComponent = () => {
   const sortCheckbox = (e) => {
     setSort(e.target.value);
   };
+
   useEffect(() => {
     let params = {};
     params.category = category;
@@ -37,7 +38,7 @@ const FilterComponent = () => {
         <ul id="accor-sort">
           <li>
             <label htmlFor="1st-sort" className="sorted">
-              Sort By: Relevance{" "}
+              Sort By: {" "}
               <span>
                 <i className="fa-solid fa-angle-right"></i>
               </span>
@@ -50,10 +51,10 @@ const FilterComponent = () => {
             ></input>
 
             <div className="sorting_content" onChange={sortCheckbox}>
-              <div>
+              {/* <div>
                 <input type="radio" />
                 Relevance
-              </div>
+              </div> */}
               <div>
                 <input
                   type="radio"

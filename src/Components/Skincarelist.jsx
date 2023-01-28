@@ -18,7 +18,7 @@ const Skincarelist = () => {
         params: {
           category: searchParams.getAll("category"),
           _sort:sortBy && "price",
-          _order:sortBy,
+          _order:sortBy, 
         },
       };
       dispatch(getSkincare(getskinParams));
