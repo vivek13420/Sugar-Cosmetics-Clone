@@ -110,6 +110,11 @@
   
   
 }
+#faisla>#proceed:disabled{
+  background-color: rgb(129, 126, 126);
+  color:black
+}
+
 #info_section{
   height:600px;
 }
@@ -118,7 +123,11 @@
   margin-top:50px;
   font-size:20px;
 }
-
+#reqired{
+  margin-top:20px;
+  font-size:16px; 
+  color:red 
+}
 
   @media all and (min-width:500px) and (max-width:1001px){
     .bg-txt{

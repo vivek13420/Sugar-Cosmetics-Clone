@@ -20,7 +20,7 @@ const Makeup = () => {
     </div>
   )
 }
-const MakeupWrappers= styled.div`
+const MakeupWrappers = styled.div`
 ${'' /* border: 1px solid blue; */}
 width:100%;
 

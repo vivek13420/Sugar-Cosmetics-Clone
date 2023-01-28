@@ -5,6 +5,7 @@ import { AiFillDelete } from "react-icons/ai";
 import {AiFillCodepenCircle} from "react-icons/ai";
 import "../CSS/Cart.css"
 import { Link } from 'react-router-dom';
+import { shouldForwardProp } from '@chakra-ui/react';
 
 const Cart = () => {
     const [cart, setCart]= useState([])
@@ -17,7 +18,7 @@ useEffect(()=>{
 function getMakeup(){
     fetch("http://localhost:3001/cart").then((result)=>{
     result.json().then((resp)=>{
-        console.log(resp)
+        //console.log(resp)
         setCart(resp)
     })
 })
@@ -27,12 +28,16 @@ function deleteItem(id){
         method:"DELETE"
     }).then((result)=>{
         result.json().then((resp)=>{
-            console.log(resp)
+            //console.log(resp)
             getMakeup()
         })
     })
 }
-console.log(cart.length)
+function show_pop(){
+alert("Sorry! Coupon Not Applicable At The Moment");
+}
+
+//console.log(cart.length)
 
   return (
     <div>
@@ -81,10 +86,10 @@ console.log(cart.length)
                 })
             }
            <div >
-            <p>APPLY COUPON</p>
+            <p >APPLY COUPON</p>
             <div className='coupon'>
                 <input type="text" placeholder='Enter Gift code or discount code' />
-                <button>Apply</button>
+                <button onClick={show_pop}>Apply</button>
                 <hr />
                 <div>
                     <p><AiFillCodepenCircle/> </p>

@@ -10,12 +10,13 @@
     height: 310px;
     width: 99%;
     margin: auto;
+     
     
   }
 
  .b-txt {
     position: absolute;
-    top: 49.5%;
+    top: 43.5%;
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
@@ -50,22 +51,68 @@
     font-weight: 600;
   }
   @media all and (min-width:500px) and (max-width:1001px){
-    .bg-txt{
-      width: 90%;
+    .b-txt{
+      width: 100%;
+      top: 31.4%;
+      left: 50%;
     }
-    .bg-img{
-      width: 80%;
+    .b-img{
+      /* width: 100%; */
       display: none;
+      
     }
     .upper_section{
       display: none;
+      /* width: 100%; */
     }
     .imgblur{
       width: 100%;
       margin-left: -5.5rem;
     }
     .body{
-      width: 91%;
+      width: 100%;
+      display: none;
     }
 
 }
+@media all and (min-width:500px) and (max-width:900px){
+  #toastt{
+    
+    height: 44px;
+    width: 160px;
+   
+  }
+  .body{
+    width: 100%;
+    display: none;
+  }
+  
+}
+@media all and (min-width:400px) and (max-width:550px){
+  #toastt{
+    
+    height: 38px;
+    width: 120px;
+    font-size: 12px;
+   
+  }
+  .body{
+    width: 100%;
+    display: none;
+  }
+}
+@media all and (min-width:270px) and (max-width:420px){
+  #toastt{
+    background-color: black;
+    color: white;
+    height: 44px;
+    width: 180px;
+    border-radius: 10px;
+  }
+  
+  .body{
+    width: 100%;
+    display: none;
+  }
+}
+

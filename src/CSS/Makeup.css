@@ -15,10 +15,11 @@
     margin: auto;   
     
   }
+  
 
  .bg-text {
     position: absolute;
-    top: 49%;
+    top: 43.5%;
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);

@@ -35,6 +35,7 @@ const MakeupCard = ({makeupData,handler}) => {
       
       <div className='white-list'  onClick={whiteLists}><i className="fa-regular fa-heart"></i></div>
         <CustomizedSnackbars/>
+        
         <br/>
        {/* <Button onClick={()=>handler({makeupData})}>addd</Button> */}
       </div>
