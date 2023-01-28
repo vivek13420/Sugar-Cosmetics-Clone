@@ -23,7 +23,7 @@ const Navbar = () => {
       } else setUserName("");
     });
   }, []);
-  console.log(userName)
+  //console.log(userName)
   return (
     <div id="nav-sticky">
       <div>

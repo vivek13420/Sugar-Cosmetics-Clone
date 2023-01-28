@@ -18,7 +18,7 @@ useEffect(()=>{
 function getMakeup(){
     fetch("http://localhost:3001/cart").then((result)=>{
     result.json().then((resp)=>{
-        console.log(resp)
+        //console.log(resp)
         setCart(resp)
     })
 })
@@ -28,7 +28,7 @@ function deleteItem(id){
         method:"DELETE"
     }).then((result)=>{
         result.json().then((resp)=>{
-            console.log(resp)
+            //console.log(resp)
             getMakeup()
         })
     })
@@ -37,7 +37,7 @@ function show_pop(){
 alert("Sorry! Coupon Not Applicable At The Moment");
 }
 
-console.log(cart.length)
+//console.log(cart.length)
 
   return (
     <div>
