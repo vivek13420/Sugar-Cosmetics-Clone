@@ -31,6 +31,10 @@ const MakeupPageWrapper = styled.div`
 const FilterWrapper = styled.div`
   border: 0px solid green;
   width: 500px;
+  @media all and (min-width:281px) and (max-width:1001px){
+    display: none;
+  
+  }
 `;
 
 export default Skincare;

@@ -49,18 +49,24 @@ const Navbar = () => {
           </Link>
         </div>
         <div id="hbd">
-          <div>
+        <Link to={'/cart'}> 
+        <div>
             <FaRegHeart />
           </div>
+          </Link>
+          
 
           <Link to={"/cart"}>
           <div className="redCart" >
             <FaShoppingBag />
           </div>
           </Link>
+          <Link to={'/makeup'}> 
           <div>
             <TbDiscount2 />
           </div>
+          </Link>
+          
         </div>
       </div>
       <div>

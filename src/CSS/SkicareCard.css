@@ -7,6 +7,7 @@
     background-color: #ffffff;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
+
 .div{
     border: 0px solid green;
     display: grid;
@@ -14,8 +15,15 @@
     gap: 15px;
     margin-top: 15px;   
 }
-.imge{
+/* .imge{
     border-radius: 13px;
+} */
+.card_img{
+    border-radius: 13px;
+    object-fit: cover;
+}
+.price-m{
+    font-size: 20px;
 }
 .pric{
     font-size: 20px;
@@ -58,6 +66,52 @@
 #aa{
     background-color: black;
 }
+.nnnn{
+    text-decoration: none;
+    color: black;
+}
+.p_name {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+}
+@media all and (min-width:700px) and (max-width:900px){
+    
+    .skincare-img{
+        border: 0px solid red;
+        height: 400px;
+        width: 230px;
+       
+    }
+    .div{
+        border: 0px solid green;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        gap: 15px;
+        margin-top: 15px;   
+    }
+}
+@media all and (min-width:550px) and (max-width:700px){
+    .skincare-img{
+      
+        height: 400px;
+        width: 280px;
+        display: grid;
+        align-items: center;
+        margin: auto;
+       
+    }
+    .div{
+       
+        display: grid;
+        grid-template-columns: 50% 50% ;
+       gap: 20px;
+        width: 90%;
+        display: grid;
+        align-items: center;
+        /* margin: auto;    */
+    }
+}
 @media all and (min-width:420px) and (max-width:550px){
     .skincare-img{
        
@@ -72,7 +126,8 @@
        
         display: grid;
         grid-template-columns: 50% 50% ;
-      width: 90%;
+      
+        width: 90%;
         display: grid;
         align-items: center;
         /* margin: auto;    */
@@ -92,10 +147,12 @@
        
         display: grid;
         grid-template-columns: 100% ;
-      
-        width: 100%;
+         width: 100%;
         display: grid;
         align-items: center;
         margin: auto;   
+    }
+    .card_img{
+     margin-left:20%;
     }
 }

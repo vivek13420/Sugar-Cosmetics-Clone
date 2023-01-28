@@ -28,6 +28,7 @@
     margin-top: 1px;
     justify-content: space-between;
 }
+
 .m-button{
     background-color: black;
 }
@@ -53,11 +54,12 @@
     text-decoration: none;
     color: black;
 }
-.p_name{
+.p_name {
     width: 100%;
     font-size: 12px;
     font-weight: 500;
-}
+} 
+
 @media all and (min-width:700px) and (max-width:900px){
     
     .mk-img{

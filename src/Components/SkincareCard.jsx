@@ -11,12 +11,12 @@ const Card = ({ skincareData }) => {
   return (
     <div>
       <div className="skincare-img">
-        <img className="imge" src={skincareData.img} alt="" width="160px" />
-        <p>{skincareData.products_name}</p>
+        <img className='card_img' src={skincareData.img} alt="" width="160px" />
+        <p className='p_name'>{skincareData.products_name}</p>
         <br />
         <p>{skincareData.category}</p>
         <br />
-        <h1 className="pric">₹ {skincareData.price}</h1>
+        <h1 className = 'price-m'>₹ {skincareData.price}</h1>
         <br />
         <p>{skincareData.shades}</p>
         <br />
