@@ -1,11 +1,16 @@
 import React from "react";
 // import { render } from "react-dom";
+import { useState } from "react";
 import Carousel from "./Carousel";
 import '../Styles/body.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousal2 from "./Carousal2";
 
 const Body = ()=>{
+    const [data, setData] = useState('')
+    function handlechange(){
+        window.location.href="/login"
+       }
 
     return <div id="main_box">
         <div className="sliderBig">
@@ -87,8 +92,8 @@ const Body = ()=>{
                 <p className="subs_desc">Get the latest beauty tips straight to your inbox. Can’t wait to connect!</p>
 
                 <div className="subs_inputBox">
-                    <input className="" type="text" />
-                    <button>SUBSCRIBE</button>
+                    <input className="" value={data} onChange={event => setData(event.target.value)} type="text" />
+                    <button onClick={handlechange} disabled={!data}>SUBSCRIBE</button>
                     
                 </div>
             </div>
