@@ -48,6 +48,7 @@ function Login() {
           placeholder="Enter email address"
         />
         <InputControl
+        className={styles.password}
           label="Password"
           onChange={(event) =>
             setValues((prev) => ({ ...prev, pass: event.target.value }))

@@ -69,3 +69,7 @@
   font-size: 1rem;
   text-decoration: none;
 }
+.password{
+  -webkit-text-security: disc;
+  text-security: disc;
+}

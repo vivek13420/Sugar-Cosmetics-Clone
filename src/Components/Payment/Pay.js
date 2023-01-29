@@ -124,6 +124,7 @@ export default class Pay extends React.Component {
 
               <input
                 type='tel'
+                id="cvc-masked_pass"
                 name='cvc'
                 className='form-control'
                 placeholder='CVC'
