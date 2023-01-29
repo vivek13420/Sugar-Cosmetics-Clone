@@ -43,12 +43,9 @@ const Navbar = () => {
 
         <div id="lg">
           <input placeholder="     Try `Liquid Lipstick`" id="searchBar" value={data} onChange={event => setData(event.target.value)}/>
-          
-           {/* <Link to={'/makeup'}>  */}
           <button id="searchButton" onClick={handlechange} disabled={!data}>
          <FiSearch size={15} /> Search
             </button>
-            {/* </Link> */}
           
           
         </div>
