@@ -1,0 +1,40 @@
+import React from "react";
+// import FilterComponent from "../Components/FilterComponents";
+// import Skincarelist from "../Components/Skincarelist";
+import PageHero from "./PageHero";
+// import styled from "styled-components";
+
+const Skincare = () => {
+  return (
+    <div>
+      <PageHero />
+      {/* <MakeupPageWrapper>
+        <FilterWrapper>
+          <FilterComponent />
+        </FilterWrapper>
+
+        <MakeupWrappers>
+          <Skincarelist />
+        </MakeupWrappers>
+      </MakeupPageWrapper> */}
+    </div>
+  );
+};
+// const MakeupWrappers = styled.div`
+//   ${"" /* border: 1px solid blue; */}
+//   width:100%;
+// `;
+// const MakeupPageWrapper = styled.div`
+//   border: 0px solid red;
+//   display: flex;
+// `;
+// const FilterWrapper = styled.div`
+//   border: 0px solid green;
+//   width: 500px;
+//   @media all and (min-width:281px) and (max-width:1001px){
+//     display: none;
+  
+//   }
+// `;
+
+export default Skincare;
