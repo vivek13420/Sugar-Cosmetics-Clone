@@ -2,7 +2,7 @@
 ---
 This is a collaborative Project from Masai School in the Construct Week developed in 5 days. We are a team of 5 members:
 
-1. Vivek
+1. Devendra Kumar
 
 2. Shubham Verma 
 
@@ -10,7 +10,7 @@ This is a collaborative Project from Masai School in the Construct Week develope
 
 4. Avnish Singh
 
-4. Devendra Kumar
+4. Vivek
 
 💻Project Unique Name :- Masai Cosmetics ✈️
 ---
