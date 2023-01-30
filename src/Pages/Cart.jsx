@@ -38,6 +38,8 @@ alert("Sorry! Coupon Not Applicable At The Moment");
 }
 
 //console.log(cart.length)
+let data = JSON.parse(localStorage.getItem("cartitem"));
+  console.log(data);
 
   return (
     <div>

@@ -59,6 +59,20 @@
     font-size: 12px;
     font-weight: 500;
 } 
+.btn{
+    border:none;
+    height: 43px;
+    width: 180px;
+    border-radius: 10px;
+    margin-left: 14px;
+    color:#ffffff;
+    background-color: black;
+    font-weight:bold;
+    margin-right:10px;
+}
+.btn>p{
+    margin-top:20px;
+}
 
 @media all and (min-width:700px) and (max-width:900px){
     

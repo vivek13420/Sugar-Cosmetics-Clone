@@ -25,8 +25,8 @@ const Card = ({ skincareData }) => {
           <div className="skincare-list" onClick={whiteLists}>
             <i className="fa-regular fa-heart"></i>
           </div>
-          <CustomizedSnackbars/>
-         {/* <i class="btn"><p>Add To Cart</p></i> */}
+          {/* <CustomizedSnackbars/> */}
+         <i class="btn"><p>Add To Cart</p></i>
         </div>
       </div>
     </div>
