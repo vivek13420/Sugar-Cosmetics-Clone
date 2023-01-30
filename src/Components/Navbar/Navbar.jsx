@@ -10,6 +10,7 @@ import { auth } from "../../firebase";
 
 
 const Navbar = () => {
+  const [data, setData] = useState('')
   const navigate= useNavigate()
   const imgHome=()=>{
     navigate("/")
@@ -23,6 +24,10 @@ const Navbar = () => {
       } else setUserName("");
     });
   }, []);
+
+  function handlechange(){
+   window.location.href="/makeup"
+  }
   //console.log(userName)
   return (
     <div id="nav-sticky">
@@ -37,10 +42,12 @@ const Navbar = () => {
         />
 
         <div id="lg">
-          <input placeholder="     Try `Liquid Lipstick`" id="searchBar" />
-          <button id="searchButton">
-            <FiSearch size={15} /> Search
-          </button>
+          <input placeholder="     Try `Liquid Lipstick`" id="searchBar" value={data} onChange={event => setData(event.target.value)}/>
+          <button id="searchButton" onClick={handlechange} disabled={!data}>
+         <FiSearch size={15} /> Search
+            </button>
+          
+          
         </div>
         <div id="lr">
           <FaUserCircle /> 

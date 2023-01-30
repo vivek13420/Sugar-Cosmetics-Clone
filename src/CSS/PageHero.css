@@ -1,0 +1,121 @@
+
+ body {
+    background-color: #f2f2f2;
+   }
+    
+    .b-img {
+      background-image: url("https://d32baadbbpueqt.cloudfront.net/Collection/1c906769-7b7f-4589-8bf6-a089d9c6cebb.gif");
+      /* filter: blur(5px); */
+      -webkit-filter: blur(20px);
+      height: 310px;
+      width: 99%;
+      margin: auto;
+       
+      
+    }
+  
+   .b-txt {
+      position: absolute;
+      top: 43.5%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, -50%);
+  
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+    }
+    .imgblur{
+      width: 100%;
+      height: 316px;
+    }
+    .body{
+      height: 318px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 0px 0px -1px;
+    }
+    .upper_section{
+      display: flex;
+      background-color: #fff;
+      text-align: center;
+      padding-left: 40px;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      margin-top:22px;
+    }
+    #right_section{
+      margin-left: 20px;
+      text-align: center;
+      margin-top: 20px;
+      margin-right: 20px;
+      
+    }
+    .upper_section>p~p{
+      font-weight: 600;
+      cursor: pointer;
+    }
+    @media all and (min-width:500px) and (max-width:1001px){
+      .b-txt{
+        width: 100%;
+        top: 31.4%;
+        left: 50%;
+      }
+      .b-img{
+        /* width: 100%; */
+        display: none;
+        
+      }
+      .upper_section{
+        display: none;
+        /* width: 100%; */
+      }
+      .imgblur{
+        width: 100%;
+        margin-left: -5.5rem;
+      }
+      .body{
+        width: 100%;
+        display: none;
+      }
+  
+  }
+  @media all and (min-width:500px) and (max-width:900px){
+    #toastt{
+      
+      height: 44px;
+      width: 160px;
+     
+    }
+    .body{
+      width: 100%;
+      display: none;
+    }
+    
+  }
+  @media all and (min-width:400px) and (max-width:550px){
+    #toastt{
+      
+      height: 38px;
+      width: 120px;
+      font-size: 12px;
+     
+    }
+    .body{
+      width: 100%;
+      display: none;
+    }
+  }
+  @media all and (min-width:270px) and (max-width:420px){
+    #toastt{
+      background-color: black;
+      color: white;
+      height: 44px;
+      width: 180px;
+      border-radius: 10px;
+    }
+    
+    .body{
+      width: 100%;
+      display: none;
+    }
+  }
+  
+  

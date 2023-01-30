@@ -7,6 +7,7 @@ import Cart from './Cart';
 import Home from './Home';
 import Payment from './Payment';
 import Skincare from './Skincare';
+import Page from "./Page"
 import Pay from '../Components/Payment/Pay';
 import Signup from '../Auth/Signup/Signup';
 import Login from '../Auth/Login/Login';
@@ -19,6 +20,7 @@ const MainRoutes = () => {
       <Route path='/makeup' element={<Makeup/>}/>
       <Route path='/details' element={<Payment/>}/>
       <Route path='/skincare' element={<Skincare/>}/>
+      <Route path='/others' element={<Page/>}/>
       <Route path="/login" element={<Login/>} />
       <Route path= "/cart" element={<Cart/>}/>
       <Route path='/signup' element={<Signup/>}/>

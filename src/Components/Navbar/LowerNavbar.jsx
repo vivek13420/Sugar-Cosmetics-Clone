@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const LowerNavbar = () => {
+
   return (
     <div id="lower-nav">
       <div id="l1">
@@ -58,6 +59,7 @@ const LowerNavbar = () => {
       <div className="dropdown">
         <button className="dropbtn">BRUSHES</button>
         <div className="dropdown-content">
+        <Link to={"/others"}>
           <div className="ddm">
             <div style={{ width: "250px" }}>
               <a >
@@ -81,7 +83,9 @@ const LowerNavbar = () => {
               <li>Blend Trend Dual Eyeshadow Brush - 413 Flat + Round Xl</li>
             </div>
           </div>
+          </Link>
         </div>
+        
       </div>
       <div className="dropdown">
         <button className="dropbtn">SKINCARE</button>
@@ -105,6 +109,7 @@ const LowerNavbar = () => {
       <div className="dropdown" id="gt">
         <button className="dropbtn">GIFTING</button>
         <div className="dropdown-content">
+        <Link to={"/others"}>
         <div className="CAT">
             <a >SUGAR MERCH STATION</a>
             <a >MAKEUP KITS</a>
@@ -113,20 +118,25 @@ const LowerNavbar = () => {
             <a >SUGAR SETS</a>
             <a >E-GIFT CARDS</a>
           </div>
+          </Link>
         </div>
       </div>
-      <div className="dropdown" id="bl">
-        <button className="dropbtn">BLOG</button>
       
+      <div className="dropdown" id="bl"> 
+      <Link to={"/others"}> 
+        <button className="dropbtn" >BLOG</button>
+        </Link>
       </div>
       <div className="dropdown" id="ofr">
+      <Link to={"/others"}> 
         <button className="dropbtn">OFFERS</button>
-        
-      </div>
+        </Link>
+        </div>
       <div className="dropdown" id="stor">
+      <Link to={"/others"}> 
         <button className="dropbtn">STORES</button>
-     
-      </div>
+        </Link>
+     </div>
       </div>
     </div>
   );
