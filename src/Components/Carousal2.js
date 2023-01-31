@@ -8,7 +8,6 @@ export default () => (
     <a href="https://in.sugarcosmetics.com/collections/sugarnew">
       <div>
         <img alt="" src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/36c0d566-1a7a-4fbd-9fbc-1ec0896d4dab.jpg&w=1080&q=75" width={'100%'}/>
-        {/* <p className="legend">Legend 1</p> */}
       </div>
     </a>
 

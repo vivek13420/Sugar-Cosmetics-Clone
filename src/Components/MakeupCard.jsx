@@ -37,7 +37,6 @@ const MakeupCard = ({ makeupData, handler }) => {
           {/* <CustomizedSnackbars onClick={() => handler({ makeupData })} /> */}
 
           <br />
-          {/* <Button >addd</Button> */}
           <i class="btn" onClick={() => handler({ makeupData })}><p>Add To Cart</p></i>
         </div>
       </div>

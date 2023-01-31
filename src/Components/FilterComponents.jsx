@@ -51,10 +51,6 @@ const FilterComponent = () => {
             ></input>
 
             <div className="sorting_content" onChange={sortCheckbox}>
-              {/* <div>
-                <input type="radio" />
-                Relevance
-              </div> */}
               <div>
                 <input
                   type="radio"

@@ -28,7 +28,6 @@ const Navbar = () => {
   function handlechange(){
     navigate("/makeup")
   }
-  //console.log(userName)
   return (
     <div id="nav-sticky">
       <div>

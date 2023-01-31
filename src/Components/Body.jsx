@@ -21,7 +21,6 @@ const Body = ()=>{
         <div className="sliderSmall">
             <Carousal2 />
         </div>
-        {/* <a href="https://in.sugarcosmetics.com/collections/sugarnew"></a> */}
         <div className="hot_deals">
             <div className="hot_deals_child">
                 <div className="pink_hr">___</div>
