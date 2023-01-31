@@ -41,6 +41,11 @@ About SUGAR COSMETICS:- SUGAR Cosmetics, a cult-favourite amongst Gen Z and mill
 For database: Json Server (cyclic).
 For authentication: Google firebase authentication.
 
+------
+Product Page APIs:-
+https://nordstrom1.onrender.com/api/sugarcan
+https://wild-erin-bluefish-hose.cyclic.app/sugarcan
+
 ---
 Steps to run the project locally:-
 1. Clone the code from github
