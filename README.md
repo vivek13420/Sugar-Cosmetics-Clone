@@ -42,7 +42,7 @@ For database: Json Server (cyclic).
 For authentication: Google firebase authentication.
 
 ------
-Product Page APIs:-
+Deployed Product Page APIs:-
 <br/>
 https://nordstrom1.onrender.com/api/sugarcan
 <br/>
