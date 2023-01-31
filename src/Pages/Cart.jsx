@@ -16,7 +16,6 @@ const Cart = () => {
   function getMakeup() {
     fetch("http://localhost:3001/cart").then((result) => {
       result.json().then((resp) => {
-        //console.log(resp)
         setCart(resp);
       });
     });
@@ -26,7 +25,6 @@ const Cart = () => {
       method: "DELETE",
     }).then((result) => {
       result.json().then((resp) => {
-        //console.log(resp)
         getMakeup();
       });
     });
@@ -35,16 +33,13 @@ const Cart = () => {
     alert("Sorry! Coupon Not Applicable At The Moment");
   }
 
-  //console.log(cart.length)
   let data = JSON.parse(localStorage.getItem("cartitem"));
-  console.log(data);
 
   return (
     <div>
       <div className="cart_page">
         <div>
-          {/* { cart.map(cart=>{ */}
-          {/* return( */}
+          
           <>
             {data &&
               data.map((elem) => (
@@ -60,7 +55,6 @@ const Cart = () => {
 
                   <div onClick={() => deleteItem(cart.id)}>
                     <AiFillDelete />
-                    {/* <button >Del</button> */}
                   </div>
 
                   <div>
@@ -69,9 +63,6 @@ const Cart = () => {
                 </div>
               ))}
           </>
-          {/* ) */}
-          {/* })
-      } */}
         </div>
         <div>
           {cart.map((cart) => {
