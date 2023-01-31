@@ -41,7 +41,6 @@ const FilterComp = () => {
       setCategory(newCategories)
 
   }
-  // console.log(category)
 //6. update url if click checkbox
 const handleSort =(e) =>{
 setSortBy(e.target.value)
@@ -56,25 +55,6 @@ useEffect(()=>{
   return (
 
     <div>
-      {/* <h3>FilterComp</h3>
-      <div>
-        <div>
-          <input type="checkbox" value="Novel" onChange={makeupFilerCheckbox} checked={category.includes("Novel")}/>
-          <label>Novel</label>
-        </div>
-        <div>
-          <input type="checkbox" value="Motivational" onChange={makeupFilerCheckbox} checked={category.includes("Motivational")}/>
-          <label>Motivational</label>
-        </div>
-        <div>
-          <input type="checkbox" value="Science_Fiction" onChange={makeupFilerCheckbox} checked={category.includes("Science_Fiction")}/>
-          <label>Science</label>
-        </div>
-        <div>
-          <input type="checkbox" value="Thriller" onChange={makeupFilerCheckbox} checked={category.includes("Thriller")}/>
-          <label>Thriller</label>
-        </div>
-      </div> */}
       <div>
       <ul id='accordion-sort'>
        <li>
@@ -83,10 +63,6 @@ useEffect(()=>{
             <input type="checkbox" name="according-sort" id="first-sort"  ></input>
             
             <div className ="content-sort" onChange={handleSort}>
-                {/* <div>
-                  <input  type="radio" value="relv" name="sortBy" />
-                  Relevance
-                </div> */}
                 <div>
                   <input  type="radio" value="asc" name="sortBy" />
                   Price: Low To High

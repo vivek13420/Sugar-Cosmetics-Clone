@@ -42,13 +42,9 @@ const postCart  = ()=>{
 const whiteList=()=>{
   toast.success("Added To Cart!");
 }
-
-
-// console.log(single.price)
   return (
     <div className='single_img_left_head'>
     <div className='single_img_left'>
-          {/* 1st div */}
           <div className='single_img1'>
             <div>
               <div><img src={single.img1} alt="mm" width="100%"/></div>

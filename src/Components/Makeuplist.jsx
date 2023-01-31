@@ -13,7 +13,6 @@ const Makeuplist = () => {
   };
 
   let data = JSON.parse(localStorage.getItem("cartitem"));
-  console.log(data);
 
   const [cartitem, setCart] = useState(data || []);
 

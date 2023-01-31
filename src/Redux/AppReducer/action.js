@@ -43,7 +43,6 @@ const getMakeup = (params) =>(dispatch) =>{
         .get('https://nordstrom1.onrender.com/api/sugarcan',params)
         .then((r)=>{
             dispatch(getMakeupSuccess(r.data));
-            // console.log(r.data)
         })
         .catch((e)=>{
             dispatch(getMakeupError());
