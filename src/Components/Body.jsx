@@ -4,12 +4,14 @@ import { useState } from "react";
 import Carousel from "./Carousel";
 import '../Styles/body.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Link, useNavigate } from "react-router-dom";
 import Carousal2 from "./Carousal2";
 
 const Body = ()=>{
     const [data, setData] = useState('')
+    const navigate= useNavigate()
     function handlechange(){
-        window.location.href="/login"
+        navigate("/login")
        }
 
     return <div id="main_box">

@@ -26,7 +26,7 @@ const Navbar = () => {
   }, []);
 
   function handlechange(){
-   window.location.href="/makeup"
+    navigate("/makeup")
   }
   //console.log(userName)
   return (
