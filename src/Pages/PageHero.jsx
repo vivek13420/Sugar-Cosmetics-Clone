@@ -1,10 +1,11 @@
 import React from "react";
 import "../CSS/PageHero.css";
+import { Link, useNavigate } from "react-router-dom";
 
 const PageHero = () => {
-
+  const navigate= useNavigate()
   function makeup_page(){
-   window.location.href="/makeup"
+   navigate("/makeup")
   }
 
 
