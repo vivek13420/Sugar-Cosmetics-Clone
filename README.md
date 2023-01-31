@@ -56,7 +56,7 @@ Steps to run the project locally:-
 4. Enjoy! 
 
 ---
-Deployed Link : https://masaisugar-cosmetics.netlify.app/
+Deployed Link :  https://masaisugar-cosmetics.netlify.app/
 
 Project Presentation : https://drive.google.com/file/d/1ApSjdmJpv5J4WRk7N0l5rX0jccfM1ncq/view?usp=sharing
 
