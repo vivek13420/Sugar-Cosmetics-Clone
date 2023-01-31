@@ -87,18 +87,18 @@ const Cart = () => {
             <p>PRICE DETAILS</p>
             <div className="price">
               <div>
-                <p>Subtotal (Inclusive of Taxes)</p>
+                <p>Subtotal </p>
                 <p>Tax</p>
                 <p>Shipping</p>
                 <hr />
                 <h2>TOTAL</h2>
               </div>
               <div>
-                <p>₹1200</p>
+                <p>₹999</p>
                 <p>₹99</p>
                 <p>Free</p>
                 <hr />
-                <h2>₹1299</h2>
+                <h2>₹1,098</h2>
               </div>
             </div>
           </div>

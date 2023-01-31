@@ -49,7 +49,7 @@ const Payment = () => {
           <input type="text" placeholder="City" />
           <input type="text" placeholder="Country"/>
         </div>
-        <div id="bill"><b>Your Total Bill is:</b>  ₹1299</div>
+        <div id="bill"><b>Your Total Bill is:</b>  ₹1,098</div>
         <div id="reqired"><p>Enter the required * feilds to continue</p></div>
         <div id="faisla">
           <button id="cancel" onClick={payNavigaterev}>Cancel</button>
