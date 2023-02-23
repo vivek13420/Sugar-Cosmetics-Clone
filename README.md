@@ -20,7 +20,7 @@ About SUGAR COSMETICS:- SUGAR Cosmetics, a cult-favourite amongst Gen Z and mill
 
 <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/b16a42b1-3e35-42bb-b122-a517e75c490e.jpg&w=1920&q=75"/>
 
-<img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F42422d36-dda3-4de8-af72-9920d51cc644.jpg&w=1920&q=75"/>
+<img src="https://d32baadbbpueqt.cloudfront.net/Collection/1c906769-7b7f-4589-8bf6-a089d9c6cebb.gif"/>
 💫Tech & Tools Used :
 ---
 
